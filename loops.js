@@ -25,5 +25,6 @@ function doWhileLoop(array) {
 
   do {
     array.shift();
+    console.log(array);
   } while(array.length > 0);
 }
