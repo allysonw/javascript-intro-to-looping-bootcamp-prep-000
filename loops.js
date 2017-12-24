@@ -22,7 +22,9 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
- console.log("BEFORE " + array);
+  function maybeTrue() {
+   return Math.random() >= 0.5
+ }
   do {
     array.shift();
     console.log(array);
