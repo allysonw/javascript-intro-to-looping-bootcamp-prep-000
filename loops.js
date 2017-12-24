@@ -1,8 +1,4 @@
-function forLoop(){
-  return array;
-}
-
-/*function forLoop(array) {
+function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     console.log(i);
     if (i === 1) {
@@ -16,8 +12,8 @@ function forLoop(){
   }
   return array;
 }
-*/
-/*function whileLoop(n) {
+
+function whileLoop(n) {
   while (n > 0) {
     console.log(n);
     n--;
