@@ -22,7 +22,7 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
-
+ console.log("BEFORE " + array);
   do {
     array.shift();
     console.log(array);
